@@ -1,13 +1,15 @@
 <template>
-  <Home></Home>
+  <div>
+    <Head></Head>
+  </div>
 </template>
 
 <script>
-import Home from './components/Home/index'
+import Head from './components/Head/index'
 export default {
   name: 'App',
   components:{
-    Home
+    Head
   }
 }
 </script>
